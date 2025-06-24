@@ -22,7 +22,7 @@ jobs:
         uses: ./.github/glog-action
         with:
           lang: 'php'
-          debug: 'false'
+          debug: 'true'
           upload: 'true'
           github-token: ${{ secrets.PAT_TOKEN }}
           glog-token: ${{ secrets.GLOG_TOKEN }}
